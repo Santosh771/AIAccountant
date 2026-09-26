@@ -4,7 +4,7 @@ test('Login test', async ({ page }) => {
     await page.goto('https://app.aiaccountant.com/');   
 
     // Fill in the login  email
-await page.locator("#email").fill("pujarsantosh97@gmail.com");
+await page.locator("#email").fill("example@gmail.com");
     // Fill in the login password
     await page.locator("#password").fill("021997Rp@");
 
